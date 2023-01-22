@@ -1,0 +1,68 @@
+Python_Assignment_4
+
+1. What exactly is []?
+Ans. [] is an empty list.
+
+2. In a list of values stored in a variable called spam, how would you assign the value "hello" as the
+third value? (Assume [2, 4, 6, 8, 10] are in spam.)
+Ans. spam[2] = "hello"
+
+Let's pretend the spam includes the list ['a','b','c','d'] for the next three queries.
+
+3. What is the value of spam[int(int('3' * 2) / 11)]?
+Ans. d
+
+4. What is the value of spam[-1]?
+Ans. d
+
+5. What is the value of spam[:2]?
+Ans. ['a','b']
+
+Let's pretend bacon has the list [3.14, "cat", 11, "cat", True] for the next three questions.
+
+6. What is the value of bacon.index("cat")?
+Ans. 1
+
+7. How does bacon.append(99) change the look of the list value in bacon?
+Ans. [3.14, "cat", 11, "cat", True, 99] Append add the value to the end of the list.
+
+8. How does bacon.remove("cat") change the look of the list in bacon?
+Ans. [3.14, 11, "cat", True, 99] Remove deletes the first occurence of the element from the list.
+
+9. What are the list concatenation and list replication operators?
+Ans. List concatenation operator is '+' and list replication operatore is '*'.
+
+10. What is difference between the list methods append() and insert()?
+Ans. append() adds the element at the end of the list while insert adds the element at the specified index.
+
+11. What are the two methods for removing items from a list?
+Ans. del statement, pop() and remove()
+
+12. Describe how list values and string values are identical.
+Ans. Both lists and strings can be passed to len(), have indexes and slices, be used in for loops, be concatenated or replicated, and be used with the in and not in operators.
+
+13. What's the difference between tuples and lists?
+Ans. The primary difference between tuples and lists is that tuples are immutable as opposed to lists which are mutable. Therefore, it is possible to change a list but not a tuple. The contents of a tuple cannot change once they have been created in Python due to the immutability of tuples. Also, tuples are written using parentheses, ( and ), while lists use the square brackets, [ and ].
+
+14. How do you type a tuple value that only contains the integer 42?
+Ans. (42,)
+
+15. How do you get a list value's tuple form? How do you get a tuple value's list form?
+Ans. To convert tuple to list use list(tuple_name) and to convert list to tuple use tuple(list_name)
+
+16. Variables that "contain" list values are not necessarily lists themselves. Instead, what do they
+contain?
+Ans. They contain references to list values.
+
+17. How do you distinguish between copy.copy() and copy.deepcopy()?
+Ans. The copy.copy() function will do a shallow copy of a list, while the copy.deepcopy() function will do a deep copy of a list. That is, only copy.deepcopy() will duplicate any lists inside the list.
+
+
+
+
+
+
+ 
+
+
+
