@@ -1,0 +1,48 @@
+Python_Assignment_6
+
+1. What are escape characters, and how do you use them?
+Ans. To insert characters that are illegal in a string, use an escape character. An escape character is a backslash \ followed by the character you want to insert.
+
+2. What do the escape characters n and t stand for?
+Ans. newline (\n), tab (\t)
+
+3. What is the way to include backslash characters in a string?
+Ans. To include a backslash in a string, you actually need to "escape it" with a second backslash, or in other words you need to write \\ in the string literal.
+
+4. The string "Howl's Moving Castle" is a correct value. Why isn't the single quote character in the
+word How's not escaped a problem?
+Ans. The single quote in Howl's is fine because you've used double quotes to mark the beginning and end of the string.
+
+5. How do you write a string of newlines if you don't want to use the n character?
+Ans. Multiline strings allow you to use newlines in strings without the \n escape character.
+
+6. What are the values of the given expressions?
+'Hello world!'[1]
+
+'Hello world!'[0:5]
+
+'Hello world!'[:5]
+
+'Hello world!'[3:]
+
+Ans. 'e', 'Hello', 'Hello', 'lo world!'
+
+7. What are the values of the following expressions?
+'Hello'.upper()
+
+'Hello'.upper().isupper()
+
+'Hello'.upper().lower()
+Ans. 'HELLO', True, 'hello'
+
+8. What are the values of the following expressions?
+'Remember, remember, the fifth of November.'.split()
+'-'.join('There can be only one.'.split())
+Ans. ['Remember,', 'remember,', 'the', 'fifth', 'of', 'November.']
+'There-can-be-only-one.
+
+9. What are the methods for right-justifying, left-justifying, and centering a string?
+Ans. The rjust(), ljust(), and center() string methods, respectively
+
+10. What is the best way to remove whitespace characters from the start or end?
+Ans. The lstrip() and rstrip() methods remove whitespace from the left and right ends of a string, respectively.
